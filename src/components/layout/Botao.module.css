@@ -1,0 +1,34 @@
+.botao_container button{
+    background-color: rgb(83, 83, 83);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    margin-left: 50%;
+    margin-top: 20px;
+    transform: translate(-50%,0);
+    width: 40%;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.botao_container button:hover{
+    text-shadow: 1px 1px 1px rgb(133, 132, 132);
+    border: 1px solid rgb(66, 66, 66);
+}
+
+.botao_container img{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    padding: 5px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.botao_container img:hover{
+    border: 10px solid rgb(66, 66, 66);
+    width: 230px;
+}
