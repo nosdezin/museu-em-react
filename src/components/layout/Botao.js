@@ -20,7 +20,7 @@ function Botao({ texto, fotos, id }) {
 
       <div id={id} hidden>
       {fotos.map((foto) => (
-        <img src={foto} alt={foto} />
+        <img src={foto} alt={foto} key={foto} />
       ))}
       </div>
     </div>
