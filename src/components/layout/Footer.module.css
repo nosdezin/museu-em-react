@@ -1,0 +1,28 @@
+.footer{
+    background-color: #535353;
+    color: #FFF;
+    padding: 1em;
+    text-align: center;
+    margin-top: 7.1em;
+    box-shadow: 1px 1px 7px #222;
+}
+
+.image{
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-top: -1em;
+    transition: 0.5s;
+}
+
+.image:hover{
+    color: #ffbb33;
+}
+
+.copy_right{
+    margin-top: 2em;
+}
+
+.copy_right span{
+    font-weight: bold;
+    color: #ffbb33;
+}

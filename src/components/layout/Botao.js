@@ -1,27 +1,26 @@
 import styles from "./Botao.module.css";
-import DivImagens from "../DivImagens.js";
+//  foto  id
+function Botao({ idB, texto}) {
+  // function mostrar() {
+    // const divIMG = document.getElementById(`${id}`);
+    // const botao = document.getElementById(`${idB}`);
 
-function Botao(props) {
-  function mostrar() {
-    const divIMG = document.getElementById(`${props.id}`);
-    const botao = document.getElementById(`${props.idB}`);
+    // botao.addEventListener("click", () => {
+    //   if (divIMG.hidden === false) {
+    //     divIMG.hidden = true;
+    //   } else {
+    //     divIMG.hidden = false;
+    //   }
+    // });
+  // }
 
-    botao.addEventListener("click", () => {
-      if (divIMG.hidden === false) {
-        divIMG.hidden = true;
-      } else {
-        divIMG.hidden = false;
-      }
-    });
-  }
+  // onClick={mostrar}
 
   return (
     <div className={styles.botao_container}>
-      <button type="button" id={props.idB} onClick={mostrar}>
-        {props.texto}
+      <button type="button" id={idB} >
+        {texto}
       </button>
-
-      <DivImagens id={props.id} foto={props.foto} />
     </div>
   );
 }
