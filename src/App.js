@@ -44,7 +44,12 @@ function App() {
         idB="btnLukas"
         fotos={LukasArrI}
       />
-
+<ins class="adsbygoogle"
+     style="display:block;background-color:rgb(200,200,200);"
+     data-ad-client="ca-pub-8837674974268424"
+     data-ad-slot="5640324661"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
       <Footer />
     </div>
   );
